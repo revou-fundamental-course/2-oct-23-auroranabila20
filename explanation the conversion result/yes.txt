@@ -1,0 +1,20 @@
+1.) convertFahrenheit():
+-Fungsi ini dipanggil ketika mengklik tombol "Konversi Fahrenheit".
+-Pertama, fungsi ini mengambil nilai yang diinputkan dalam elemen HTML dengan ID "celcius" dan mengonversinya menjadi angka atau yang disebut (floating-point) menggunakan parseFloat().
+-Lalu fungsi ini melakukan perhitungan konversi dari Celcius ke Fahrenheit dengan rumus (1.8 * celcius) + 32.
+-Hasil konversi ini dibulatkan menjadi 2 angka desimal menggunakan toFixed(2) dan disimpan dalam variabel a.
+-Nilai yang diinputkan oleh pengguna dalam elemen "celcius" tetap sama.
+-Hasil konversi Fahrenheit ditampilkan dalam elemen "fahrenheit" dengan mengganti nilainya dengan nilai yang disimpan dalam variabel a.
+
+2.) convertCelcius():
+
+-Fungsi ini dipanggil ketika pengguna mengklik tombol "Konversi Celcius".
+-Pertama, ia mengambil nilai yang diinputkan oleh pengguna dalam elemen HTML dengan ID "fahrenheit" dan mengonversinya menjadi angka (floating-point) menggunakan parseFloat().
+-Kemudian, ia melakukan perhitungan konversi dari Fahrenheit ke Celcius dengan rumus (fahrenheit - 32) / 1.8.
+-Hasil konversi ini dibulatkan menjadi 2 angka desimal menggunakan toFixed(2) dan disimpan dalam variabel b.
+-Nilai yang diinputkan oleh pengguna dalam elemen "fahrenheit" tetap sama.
+-Hasil konversi Celcius ditampilkan dalam elemen "celcius" dengan mengganti nilainya dengan nilai yang disimpan dalam variabel b.
+
+3.) reset():
+-Fungsi ini dipanggil ketika mengklik tombol/button "Reset".
+-Reset mengatur nilai elemen "celcius" dan "fahrenheit" kembali menjadi string yang kosong, sehingga akan menghapus hasil konversi yang sebelumnya.

@@ -1,0 +1,55 @@
+body{
+  background: linear-gradient(rgb(31, 7, 67), rgb(54, 12, 76), rgb(83, 39, 128));
+  height: 610px;
+}
+
+label{
+  font-size: 19px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+h1{
+  color:rgb(64, 7, 71);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+div{
+  text-align: center;
+  box-shadow: 0 0 25px 5px  black;
+  margin: center;
+  margin-top: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  width: 300px;
+ height: 369px;
+ background: linear-gradient(white, rgb(217, 217, 231));
+ border-radius: 10px;
+ border: 1px solid black;
+}
+
+input{
+  border-color: 2px 2px 2px rgb(32, 11, 50);
+  box-shadow: 0px 5px 20px rgb(17, 18, 18);
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 5px;
+  margin-left: 2px;
+  text-align: center;
+}
+
+.button{
+  background-color: rgb(0, 0, 14);
+  color: #fff;
+  height: auto;
+  width: 200px;
+  border: none;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 10px;
+}
